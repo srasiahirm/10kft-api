@@ -32,4 +32,7 @@ echo "Cloning configuration: ${PWD}/${RM_PROJECT_FOLDER}"
 git clone ${REPO} ${RM_PROJECT_FOLDER}
 #mkdir -p ${RM_PROJECT_FOLDER}/conf
 #cp ${RM_PROJECT_FOLDER}/conf.d/*.conf ${RM_PROJECT_FOLDER}/conf
+cd ${RM_PROJECT_FOLDER}
 echo ""
+
+#

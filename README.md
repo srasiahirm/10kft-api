@@ -22,6 +22,17 @@ Follow the steps below if you'd like to run the documentation locally on your ma
  - **Ruby, version 1.9.3 or newer**
  - **Bundler** — If Ruby is already installed, but the `bundle` command doesn't work, just run `gem install bundler` in a terminal.
 
+# Usage
+
+For running sample locally, you can install everything using the bootstrap script
+like so:
+
+```
+bash -c "$(curl -fsSL https://raw.github.com/10kft-api/dev-sr/bootstrap.sh)"
+```
+
+https://github.com/srasiahirm/10kft-api.git
+
 ### Getting Set Up
 
  1. Fork this repository on Github.
